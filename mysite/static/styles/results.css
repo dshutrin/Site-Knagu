@@ -1,0 +1,106 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #1976D2;
+	height: inherit;
+	width: inherit;
+	height: 100%;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	height: inherit;
+	width: inherit;
+}
+
+img {
+	height: 100px;
+	width: auto;
+}
+
+.logo {
+	position: fixed;
+	width: 4%;
+	height: auto;
+}
+
+ul {
+	position: fixed;
+	height: 5%;
+	left: 0px;
+	right: 0px;top: 0px;
+	list-style: none;
+	margin-bottom: 0px;
+	padding: 0px;
+	background-color: #0D47A1;
+	padding-bottom: 4%;
+}
+
+.main_title {
+	position: fixed;
+	text-align: center;
+	color: yellow;
+	padding-top: 0.5%;
+	font-size: 300%;
+	width: 100%;
+	padding-right: 0px;
+}
+
+.title {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+table {
+	border: 1px solid black;
+	width: inherit;
+	flex-grow: 3;
+	margin-top: 4%;
+}
+
+th, tr {
+	background: white;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.team_name {
+	background-color: #33CC33;
+	text-align: center;
+	width: 10%;
+}
+
+.team_score {
+	background-color: #33CC33;
+	text-align: center;
+	width: 10%;
+}
+
+.team_body {
+	background-color: #1976D2;
+	text-align: left;
+	width: 80%;
+}
+
+.all_name {
+	background-color: #F1F4F9;
+	text-align: center;
+	height: 5%;
+}
+
+.all_res {
+	background-color: #F1F4F9;
+	text-align: center;
+	height: 5%;
+}
+
+.all_scores {
+	background-color: #F1F4F9;
+	text-align: center;
+	height: 5%;
+}

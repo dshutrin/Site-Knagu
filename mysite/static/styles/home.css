@@ -1,0 +1,126 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	height: inherit;
+	width: inherit;
+}
+
+body {
+	background-color: #00539F;
+	height: inherit;
+	width: inherit;
+}
+
+.main_title {
+	position: absolute;
+	text-align: center;
+	color: white;
+	padding-top: 0.5%;
+	font-size: 300%;
+	width: 100%;
+	padding-right: 0px;
+}
+
+table {
+	border: 1px solid black;
+	width: inherit;
+	flex-grow: 3;
+	margin-top: 4%;
+}
+
+.content_image {
+	height: 100px;
+	width: auto;
+}
+
+.logo {
+	position: fixed;
+	width: 4%;
+	height: auto;
+}
+
+th, tr {
+	background: white;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.main_step {
+	background-color: #1976D2;
+	font-size: 150%;
+	padding: 5px;
+	width: 22%;
+	height: 10%;
+	color: white;
+}
+
+.step {
+	background-color: #33CC33;
+	font-size: 150%;
+	padding: 5px;
+	height: 10%;
+	width: 13%;
+}
+
+.team_name {
+	background-color: #33CC33;
+	font-size: 150%;
+}
+
+.table_content {
+	align-items: center;
+	background-color: #1976D2;
+	font-size: 300%;
+	border: 0px;
+}
+
+ul {
+	height: 5%;
+	left: 0px;
+	right: 0px;top: 0px;
+	list-style: none;
+	margin-bottom: 0px;
+	padding: 0px;
+	background-color: #0D47A1;
+	position: fixed;
+	padding-bottom: 4%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.title {
+	width: 58%;
+	margin: 0;
+	text-align: right;
+}
+
+.res_but {
+	position: absolute;
+	margin-left: 85%;
+	float: left;
+	width: 15%;
+	height: 7%;
+	font-size: 30px;
+	border-radius: 8px;
+	padding-top: 0.8%;
+}
+
+button {
+	font-family: "Helvetica";
+	border-radius: 10px;
+	background-color: #33CC33;
+	color: yellow;
+}
+
+button:hover {
+	background-color: #009640;
+	color: yellow;
+}

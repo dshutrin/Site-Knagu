@@ -1,0 +1,111 @@
+html {
+	height: 100%;
+	width: 100%;
+	background-color: #1976D2;
+	font-family: "Helvetica";
+}
+
+body {
+	background-color: #1976D2;
+	height: inherit;
+	width: inherit;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 5%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	height: 6.5%;
+	left: 0px;
+	right: 0px;top: 0px;
+	list-style: none;
+	margin-bottom: 10px;
+	padding: 0px;
+	background-color: #0D47A1;
+	position: fixed;
+	padding-bottom: 4%;
+	width: 100%;
+}
+
+.main_title {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: #F1F4F9;
+	font-size: 300%;
+}
+
+button {
+	float: left;
+	background-color: #33CC33;
+	text-align: center;
+	border-radius: 10px;
+	width: 60%;
+	height: 20%;
+	font-size: 30px;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-left: 0%;
+}
+
+button:hover {
+	background-color: green;
+	color: #F1F4F9;
+}
+
+div {
+	float: left;
+}
+
+.form {
+	width: 30%;
+	float: left;
+	margin-right: 0%;
+	padding-right: 0%;
+	margin-top: 8%;
+	text-align: left;
+}
+
+.main_form {
+	padding-left: 3%;
+	width: 100%;
+}
+
+.titles {
+	width: 50%;
+	margin-top: 8%;
+	text-align: right;
+	color: white;
+}
+
+h1 {
+	font-size: 30px;
+	padding: 0;
+	margin-top: 0%;
+	margin-bottom: 0.93%;
+}
+
+label {
+	width: 20%;
+	font-size: 30px;
+	padding-right: 10px;
+	margin-bottom: 1%;
+	text-align: left;
+	color: white;
+}
+
+select {
+	width: 40%;
+	font-size: 30px;
+	margin-bottom: 1%;
+	text-align: center;
+	margin-left: 3%;
+	margin-right: 27%;
+	border-radius: 10px;
+}

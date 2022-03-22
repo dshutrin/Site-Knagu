@@ -1,0 +1,12 @@
+body {
+	background-color: #00539F;
+}
+
+a {text-decoration: none;}
+
+.ERROR {
+	text-align: center;
+	color: yellow;
+	padding: 10%;
+	padding-top: 20%;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="/static/styles/admin_panel.css">
+	<title>Панель администратора {{ body }} этапа конкурса</title>
+</head>
+<body>
+
+		
+		<ul class='main_title'>
+			<li>
+				Панель администратора {{ body }} этапа конкурса
+			</li>
+		</ul>
+
+		
+		<div class='titles'>
+			{% for name in names %}
+				<h1>{{name}}</h1>
+			{% endfor %}
+		</div>
+
+		
+
+		<div class='form'>
+			<form class='main_form' action="" method='post' name='{{ body }}'>
+				{% csrf_token %}
+				{{ form }}
+				<button type="submit">Отправить</button>
+			</form>
+		</div>
+
+
+</body>
+</html>

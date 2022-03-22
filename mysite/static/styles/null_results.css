@@ -1,0 +1,64 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	background-color: #00539F;
+	height: inherit;
+	width: inherit;
+	height: 100%;
+}
+
+div {
+	display: flex;
+	flex-direction: column;
+	height: inherit;
+	width: inherit;
+}
+
+img {
+	height: 100px;
+	width: auto;
+}
+
+.logo {
+	position: fixed;
+	width: 4%;
+	height: auto;
+}
+
+ul {
+	position: fixed;
+	height: 5%;
+	left: 0px;
+	right: 0px;top: 0px;
+	list-style: none;
+	margin-bottom: 0px;
+	padding: 0px;
+	background-color: #00539F;
+	padding-bottom: 4%;
+}
+
+.main_title {
+	position: fixed;
+	text-align: center;
+	color: yellow;
+	padding-top: 0.5%;
+	font-size: 300%;
+	width: 100%;
+	padding-right: 0px;
+}
+
+.title {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+}
+
+h1 {
+	color: yellow;
+	font-size: 30px;
+	margin-top: 15%;
+	text-align: center;
+}
