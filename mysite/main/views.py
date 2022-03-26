@@ -117,12 +117,12 @@ def home(request):
 	posts = Team.objects.order_by('id')
 
 	step_imgs = [
-		'/static/images/plane.png',
-		'/static/images/plane.png',
-		'/static/images/plane.png',
-		'/static/images/plane.png',
-		'/static/images/plane.png',
-		'/static/images/plane.png'
+		'/static/images/06.png',
+		'/static/images/05.png',
+		'/static/images/04.png',
+		'/static/images/03.png',
+		'/static/images/02.png',
+		'/static/images/01.png'
 	]
 
 	for post in posts:
